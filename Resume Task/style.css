@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+nav {
+  width: 100%;
+  height: 50vh;
+  background-color: #565656;
+}
+img {
+  border-radius: 50%;
+  border: 8px dotted #fabe28;
+  margin-top: 10px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  /* border: 4px solid red; */
+  text-align: center;
+}
+
+.name {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 8%;
+  position: absolute;
+  top: 230px;
+}
+.bt1 {
+  font-size: 80px;
+  background-color: #fabe28;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+  margin-top: -30px;
+}
+.address {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+section {
+  display: flex;
+}
+.Left__content {
+  /* background-color: blue; */
+  width: 50%;
+  height: 100%;
+  margin-top: 20px;
+}
+i {
+  color: #fabe28;
+  font-size: 20px;
+  margin: 10px;
+  /* border: 4px dotted blue; */
+  /* border-radius: 50%; */
+}
+.profIcon {
+  display: inline-block;
+  background-color: black;
+  border-radius: 50%;
+  border: 5px dotted #fabe28;
+  width: 40px;
+  margin: 20px;
+}
+.headings {
+  font-size: 40px;
+  font-family: "Times New Roman";
+  /* background-color: blueviolet; */
+  position: relative;
+  top: 5px;
+  left: -20px;
+  color: #656565;
+}
+.prof__para {
+  /* background: #000; */
+  /* background-color: blueviolet; */
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  left: 20px;
+  font-family: "Times New Roman";
+  width: 45vw;
+  text-align: justify;
+  font-weight: 600;
+}
+.skillIcon {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.skill__context {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 20px;
+}
+.skills__meter {
+  /* background-color: #f3f; */
+  margin-left: 20px;
+  width: 100%;
+}
+.skills__meter > label {
+  /* margin-left: 150px;
+  width: 30%;
+  text-align: start; */
+  display: inline-flex;
+  width: 40%;
+  font-size: large;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* background-color: red; */
+}
+.experience {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.addressname {
+  margin-left: 20px;
+}
+.list__workexp {
+  height: 100%;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.list__workexp > li {
+  margin-top: 15px;
+  /* margin-bottom: 100px; */
+  text-align: justify;
+}
+.Line {
+  width: 0.4%;
+  background-color: #565656;
+  /* height: 100%; */
+  margin-top: 23px;
+  margin-left: 20px;
+}
+.sechalf {
+  width: 49%;
+  height: 100%;
+  /* background-color: red; */
+  margin-top: 20px;
+}
+.edu__exp {
+  margin-left: 20px;
+  margin-top: 10px;
+}
